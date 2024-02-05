@@ -1,0 +1,125 @@
+
+{"data":[
+    {
+        "name": "Irankunda",
+        "email": "irankundaptien@gmail.com"
+    },
+    { 
+        "name": "Smith",
+        "email": "Smith@gmail.com"
+    },
+    {
+        "name": "John",
+        "email": "john@gmail.com"
+    },
+    {
+        "name": "Iceman",
+        "email": "iceman@gmail.com"
+    },
+    {
+        "name": "Christian",
+        "email": "Chris@gmail.com"
+    },
+    {
+        "name": "Karara",
+        "email": "karara@gmail.com"
+    },
+    {
+        "name": "Henry",
+        "email": "henry@gmail.com"
+    },
+    {
+        "name": "Legend Code",
+        "email": "legendcode@gmail.com"
+    },
+    {
+        "name": "King",
+        "email": "king@gmail.com"
+    },
+    {
+        "name": "Queen Dove",
+        "email": "queen@gmail.com"
+    }
+],
+"courses":[
+    {
+        "name": "Practical work",
+        "day": ["tuesday"]
+    },
+    {
+        "name": "Algorithm",
+        "day": ["monday", "tuesday"]
+    },
+    {
+        "name": "Develop database",
+        "day": ["tuesday", "thursday"]
+    },
+    {
+        "name": "Math",
+        "day": ["monday", "wednesday"]
+    },
+    {
+        "name": "Kinyarwanda",
+        "day": ["friday"]
+    },
+    {
+        "name": "Networking",
+        "day": ["wednesday", "thursday", "friday"]
+    },
+    {
+        "name": "Php",
+        "day": ["monday", "thursday"]
+    },
+    {
+        "name": "Develop backend with node.js",
+        "day": ["friday"]
+    },
+    {
+        "name": "Free time",
+        "day": ["wednesday"]
+    }
+],
+"second_t_upgrade":[
+    {
+        "name": "Develop database",
+        "day": ["wednesday", "thursday"]
+    },
+        {
+            "name": "Algorithm",
+            "day": ["thursday"]
+        },
+        {
+            "name": "Window Server",
+            "day": ["friday"]
+        },
+    {
+        "name": "Design Backend System",
+        "day": ["monday", "wednesday", "friday"]
+    },
+    {
+        "name": "Math",
+        "day": ["monday"]
+    },
+    {
+        "name": "Ent-ship",
+        "day": ["tuesday"]
+    },
+    {
+        "name": "Php",
+        "day": ["monday", "tuesday"]
+    },
+    {
+        "name": "English",
+        "day": ["tuesday"]
+    },
+    {
+        "name": "Develop backend with node.js",
+        "day": ["thursday","friday"]
+    },
+    {
+        "name": "xox",
+        "day": ["wednesday"]
+    }
+]
+}
+    

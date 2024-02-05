@@ -1,0 +1,108 @@
+body{
+    background: #000407d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #ffffff;
+    font-variant: normal;
+
+}
+h1::after{
+    content: 'ipcode5';
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    border: solid 1px #00000e;
+    color: grey;
+    top: 50px;
+    left: 15px;
+    background: #00000e;
+}
+h1::before{
+    content: '@outlook.com';
+    position: absolute;
+    width: 130px;
+    color: #00000e;
+    top: 65px;
+    left: 130px;
+    font-size: 15px;
+}
+#container{
+    text-align: center;
+}
+.courses_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+.courses_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.courses{
+    border: solid 1px #f2f2;
+    background: #00000e;
+    color: #fff;
+    margin: 2px;
+}
+input[type=search]{
+    width: 75px;
+    height: 35px;
+    outline-color: blue;
+    transition: 0.2s ease-out;
+}
+input[type=search]:hover{
+    transform: scale(1.2);
+    width: 300px;
+    transition: 0.3s ease-in;
+}
+.hide{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    #container{
+        display: block;
+        font-size: 15px;
+    }
+    .courses_box{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 21px;
+    }
+    input[type=search]{
+        width: 60px;
+        height: 20px;
+        outline-color: blue;
+        transition: 0.2s ease-out;
+    }
+    h1{
+        top: 0;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    h1::after{
+    content: 'ipcode5';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    border: solid 1px #00000e;
+    color: grey;
+    top: 26px;
+    left: 15px;
+    background: #00000e;
+}
+h1::before{
+    content: '@outlook.com';
+    position: absolute;
+    width: 130px;
+    color: #00000e;
+    top: 26px;
+    left: 75px;
+    font-size: 15px;
+}
+}
